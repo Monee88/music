@@ -1,6 +1,6 @@
-# vue-music
+# music
 
-> Vue.js 打造高级实战——音乐 App
+> Vue.js实战——音乐 App
 
 ## 项目树
 ```
@@ -40,20 +40,10 @@
 │   │   ├── loading
 │   │   │   ├── loading.gif
 │   │   │   └── loading.vue
-│   │   ├── no-result
-│   │   │   ├── no-result.vue
-│   │   │   ├── no-result@2x.png
-│   │   │   └── no-result@3x.png
 │   │   ├── progress-bar
 │   │   │   └── progress-bar.vue
-│   │   ├── progress-circle
-│   │   │   └── progress-circle.vue
 │   │   ├── scroll
 │   │   │   └── scroll.vue
-│   │   ├── search-box
-│   │   │   └── search-box.vue
-│   │   ├── search-list
-│   │   │   └── search-list.vue
 │   │   ├── slider
 │   │   │   └── slider.vue
 │   │   ├── song-list
@@ -64,10 +54,6 @@
 │   │   │   ├── song-list.vue
 │   │   │   ├── third@2x.png
 │   │   │   └── third@3x.png
-│   │   ├── switches
-│   │   │   └── switches.vue
-│   │   └── top-tip
-│   │       └── top-tip.vue
 │   ├── common
 │   │   ├── fonts
 │   │   │   ├── music-icon.eot
@@ -93,8 +79,6 @@
 │   │       ├── reset.styl
 │   │       └── variable.styl
 │   ├── components
-│   │   ├── add-song
-│   │   │   └── add-song.vue
 │   │   ├── disc
 │   │   │   └── disc.vue
 │   │   ├── m-header
@@ -111,14 +95,10 @@
 │   │   │   └── rank.vue
 │   │   ├── recommend
 │   │   │   └── recommend.vue
-│   │   ├── search
-│   │   │   └── search.vue
 │   │   ├── singer
 │   │   │   └── singer.vue
 │   │   ├── singer-detail
 │   │   │   └── singer-detail.vue
-│   │   ├── suggest
-│   │   │   └── suggest.vue
 │   │   ├── tab
 │   │   │   └── tab.vue
 │   │   ├── top-list
@@ -136,33 +116,14 @@
 │       ├── mutations.js
 │       └── state.js
 └── static
-    ├── 1.png
-    ├── 2.png
-    ├── 3.png
-    ├── 4.png
-    └── 5.png
-
-```
-
-## 项目截图
-
-![image](https://github.com/songhaoreact/vue-music/blob/master/static/1.png)
-
-![image](https://github.com/songhaoreact/vue-music/blob/master/static/2.png)
-
-![image](https://github.com/songhaoreact/vue-music/blob/master/static/3.png)
-
-![image](https://github.com/songhaoreact/vue-music/blob/master/static/4.png)
-
-![image](https://github.com/songhaoreact/vue-music/blob/master/static/5.png)
 
 
 ### 安装与运行
 
 ```
-git clone https://github.com/songhaoreact/vue-music.git
+git clone https://github.com/Monee88/music
 
-cd vue-music
+cd music
 
 npm install
 
